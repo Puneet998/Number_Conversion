@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Number Converter</h2>
+        
+        <!-- Search Bar -->
+        <input type="number" id="numberInput" placeholder="Enter a number" oninput="updateBox()">
+
+        <!-- Display Box -->
+        <div id="displayBox">0</div>
+
+        <!-- Buttons -->
+        <div class="button-container">
+            <button onclick="binary()">Binary</button>
+            <button onclick="decimal()">Decimal</button>
+            <button onclick="hexadecimal()">Hex</button>
+            <button onclick="octal()">Octal</button>
+        </div>
+
+        <!-- Result Box -->
+        <div id="resultBox">Result will appear here</div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
