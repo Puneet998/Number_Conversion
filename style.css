@@ -47,6 +47,7 @@ input {
     margin-bottom: 15px;
     border-radius: 5px;
     font-weight: bold;
+
 }
 
 .button-container {
@@ -75,5 +76,8 @@ button:hover {
     margin-top: 15px;
     font-size: 18px;
     font-weight: bold;
-    color: #333;
+    color: #333;  
+   
+
+   
 }
